@@ -1,0 +1,32 @@
+/*
+Theme Name: Slate for WP
+Theme URI: https://github.com/estudiopatagon/slate-for-ghost
+Author: Estudio Patagon (original) — converted by ulafox
+Author URI: https://github.com/ulafox
+Description: Pixel-approximate WordPress port of the Slate Ghost theme. Initial scaffold — see README for migration plan and tasks.
+Version: 0.1.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: slate-for-wp
+*/
+
+/* Basic reset and placeholder styles. Full styles will be ported from the Ghost theme in subsequent commits. */
+
+:root{
+  --content-width:900px;
+  --accent:#1a73e8;
+}
+
+html,body{margin:0;padding:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
+
+.site{max-width:var(--content-width);margin:0 auto;padding:24px}
+
+.site-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+
+.site-title{font-size:28px;font-weight:700}
+
+.article{margin-bottom:40px}
+
+.article-title{font-size:22px;margin:0 0 8px}
+
+.article-meta{color:#666;font-size:14px;margin-bottom:12px}
